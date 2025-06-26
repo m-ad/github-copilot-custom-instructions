@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: create_vscode_config
+        name: Create VSCode config files
+        entry: uv run create_vscode_config.py
+        language: python
+        pass_filenames: false
+        always_run: true
+        description: Generate VSCode configuration files from PyCharm settings

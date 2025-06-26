@@ -1,0 +1,7 @@
+[project]
+name = "copilot-custom-instructions"
+version = "0.1.0"
+description = "A repo to manage custom instructions for GitHub Copilot"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pre-commit"]
