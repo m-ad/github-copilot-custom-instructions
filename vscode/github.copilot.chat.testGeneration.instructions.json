@@ -1,0 +1,28 @@
+{
+    "github.copilot.chat.testGeneration.instructions": [
+        {
+            "text": "Use pytest for tests."
+        },
+        {
+            "text": "Put tests in the 'tests' folder."
+        },
+        {
+            "text": "Run tests with `uv run pytest`."
+        },
+        {
+            "text": "Prefer running single tests during development for performance: `uv run pytest tests/<test_file>.py::test_<test_name>`."
+        },
+        {
+            "text": "Configure pytest in `pyproject.toml` if needed."
+        },
+        {
+            "text": "Group related tests in suites."
+        },
+        {
+            "text": "Use pytest fixtures for shared setup."
+        },
+        {
+            "text": "Use the `@pytest.mark.parametrize` decorator to parametrize tests."
+        }
+    ]
+}

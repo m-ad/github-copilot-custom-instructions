@@ -1,0 +1,10 @@
+{
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Use conventional commit message format."
+        },
+        {
+            "text": "If only one file changed, start the commit message with the file name."
+        }
+    ]
+}

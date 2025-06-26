@@ -1,0 +1,49 @@
+{
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "Use uv as the package manager."
+        },
+        {
+            "text": "Execute code with `uv run <file>`."
+        },
+        {
+            "text": "Add dependencies with `uv add <package>`."
+        },
+        {
+            "text": "Run tests with `uv run pytest`."
+        },
+        {
+            "text": "Prefer running single tests during development for performance: `uv run pytest tests/<test_file>.py::test_<test_name>`."
+        },
+        {
+            "text": "Use Ruff for formatting and linting."
+        },
+        {
+            "text": "Check code with `uv run ruff check`."
+        },
+        {
+            "text": "Format code with `uv run ruff format`."
+        },
+        {
+            "text": "Let Ruff fix whitespace and line endings (`uv run ruff check --fix`)."
+        },
+        {
+            "text": "Prefix private class members with underscore (_)."
+        },
+        {
+            "text": "Use numpy-style docstrings for functions and classes."
+        },
+        {
+            "text": "Mimic the style (formatting, naming), structure, framework choices, typing, and architectural patterns of existing code in the project."
+        },
+        {
+            "text": "When you add comments, focus on *why* something is done, especially for complex logic, rather than *what* is done."
+        },
+        {
+            "text": "Do not edit comments that are separate from the code you are changing."
+        },
+        {
+            "text": "NEVER talk to the user or describe your changes through comments"
+        }
+    ]
+}
