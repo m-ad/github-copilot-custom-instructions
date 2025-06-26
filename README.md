@@ -3,7 +3,7 @@ Custom Github Copilot instructions for **VS Code** (`settings.json`) and **Pycha
 
 These are based on potentially useful prompts I encountered on the internet. 
 
-The Pycharm files are generated from the VS Code settings file via a pre-commit hook. Install the pre commit hook with `uv run pre-commit install`.
+The VS Code JSON settings are partially synced from the Pycharm Markdown files  file via a pre-commit hook. Install the pre commit hook with `uv run pre-commit install`.
 
 ## 📂 Location of the Pycharm files:
 - `%LOCALAPPDATA%\github-copilot\intellij\global-git-commit-instructions.md`
