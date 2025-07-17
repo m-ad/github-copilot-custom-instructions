@@ -22,3 +22,4 @@ Or via the `settings.json` file at `%APPDATA%\Code\User\settings.json`
 - [Writing effective repository custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot#writing-effective-repository-custom-instructions)
 - [Gemini CLI system prompt](https://gist.github.com/simonw/9e5f13665b3112cea00035df7da696c6)
 - [Example CLAUDE.md file](https://github.com/mitsuhiko/sloppy-xml-py/blob/main/CLAUDE.md)
+- [Awesome GitHub Copilot Customizations](https://github.com/github/awesome-copilot)
